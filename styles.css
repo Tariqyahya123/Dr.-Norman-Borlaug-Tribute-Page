@@ -407,12 +407,24 @@ font-size: 1.5rem;
   padding: 1rem;
   font-size: 1.3rem;
 }
-.hero__text--container p{
-  font-family: "Kite One", sans-serif;
-  font-size: 1rem;
-  margin-top: 1rem;
-  font-weight:400;
+.hero__container{
 
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+
+}
+
+
+
+.hero__text--container p {
+  font-family: "Kite One", sans-serif;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+
+
+  font-weight:400;
 }
 .about__text--container p{
   font-size: 0rem;
@@ -422,62 +434,29 @@ font-size: 1.5rem;
 font-size: 1.5rem;
 
 }
-.timeline__text--container{
-  width: 80%;
-}
-}
 
-@media screen and (max-width: 650px) {
-/* start of medium tablet styles */
-.about__img--container{
-  width: 300px;
-  height: 400px;
-  background-image: url("images/wordpress-Wrestler2.jpg");
-  background-size: cover;
-
+#eco-friendly{
+  width: 70px;
+  height:60px;
 }
-.hero__image--container{
-
-}
-.about__container{
-  width: 85%;
-  border: 1px solid red;
-}
-
 .about__text--container p{
   font-size: 0.8rem;
   line-height: 1.1rem;
 
 }
-.about__text--container h2{
-font-size: 1rem;
-
-}
-.about__text--container {
-font-size: 1rem;
-
-
-}
 .timeline__text--container{
-  width: 90%;
+  width: 100%;
 
-}
-.hero__text--container p{
-  font-size: 0.8rem;
 }
 h1{
   font-size: 1.5rem;
+  margin-right: 100px;
 }
 .about__container{
 
   margin: 0 auto;
   align-items: center;
 
-}
-
-#eco-friendly{
-  width: 55px;
-  height:50px;
 }
 .about__img--container{
   width: 200px;
@@ -488,16 +467,33 @@ h1{
 
 }
 
+.timeline__text--container h2 {
+  font-size: 1.3rem;
+}
+.timeline__text--container li {
+  font-size: 0.9rem;
 }
 
-@media screen and (max-width: 480px) {
-/* start of phone styles */
-.title__container{
-transform: translateX(-20%);
+h3{
+  font-size: 1rem;
 }
+.timeline__container{
+
+margin: 3rem;
+}
+
+
+}
+
+
+
+@media screen and (max-width: 500px) {
+/* start of phone styles */
+
+
 h1{
-  font-size: 1.2rem;
-  text-align: left;
+  font-size: 1.3rem;
+  text-align: center;
 }
 .hero__image--container{
 width: 100%;
@@ -509,13 +505,9 @@ padding-bottom: 0;
   margin: 1rem;
   margin-top: 4rem;
 }
-#eco-friendly{
 
-    width: 35px;
-    height:30px;
-  }
   .about__text--container p{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     line-height: 1rem;
 
   }
@@ -525,8 +517,10 @@ padding-bottom: 0;
 
   }
   .about__img--container{
-    width: 300px;
-    height: 400px;
+    width: 200px;
+    height: 300px;
+    position: relative;
+    top: 30px;
     background-image: url("images/wordpress-Wrestler2.jpg");
     background-size: cover;
 
@@ -544,7 +538,7 @@ font-size: 0.8rem;
   font-size: 0.8rem;
   }
 h3{
-font-size: 1em;
+font-size: 1sem;
   }
 
 
