@@ -373,6 +373,9 @@ transition: all 0.2s ease;
 h1{
   font-size: 1.8rem;
 }
+.hero{
+  margin-top:160px;
+}
 }
 
 @media screen and (max-width: 860px) {
@@ -508,8 +511,7 @@ margin-bottom: 0;
 padding-bottom: 0;
 }
 .hero{
-  margin: 1rem;
-  margin-top: 4rem;
+
 }
 
 .about__text--container {
