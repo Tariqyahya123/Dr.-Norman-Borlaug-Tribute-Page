@@ -558,3 +558,52 @@ font-size: 1rem;
 
 
 }
+
+@media screen and (max-width: 360px) {
+/* start of phone styles */
+
+
+h1{
+  font-size: 1rem;
+  text-align: center;
+width:70%;
+margin-top: 1rem;;
+
+}
+
+.logo__container{
+  width: 100px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+margin-top: 0.6rem;
+}
+
+#nobel-prize-logo{
+  width: 100px;
+  height: 80px;
+
+}
+#mobile-menu{
+  transform: translate(-100%,10%);
+}
+
+.hero{
+border: 1px solid blue;
+margin-left: 0.5rem;
+margin-right: 0.5rem;
+}
+
+.hero__text--container p{
+  font-size: 1rem;
+}
+
+.hero__text--container {
+width: 90%;
+}
+
+.about__text--container p{
+font-size: 0.7rem; 
+}
+
+}
