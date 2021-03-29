@@ -511,7 +511,14 @@ margin-bottom: 0;
 padding-bottom: 0;
 }
 .hero{
+width: 90%;
+margin-right: auto;
+margin-left: auto;
 
+}
+
+.hero__text--container p{
+  font-size: 1rem;
 }
 
 .about__text--container {
@@ -520,7 +527,7 @@ width: 80%;
 }
 
   .about__text--container p{
-    font-size: 1rem;
+    font-size: 0.8rem;
     line-height: 1.2rem;
 
   }
@@ -602,7 +609,7 @@ width: 90%;
 }
 
 .about__text--container p{
-font-size: 0.7rem; 
+font-size: 0.7rem;
 }
 
 }
