@@ -278,17 +278,15 @@ nav{
 #mobile-menu.is-active .bars:nth-child(1){
   transform: translateY(10px)  rotate(45deg);
   transition: 0.3s ease;
-      background-color: #DA3927;
-  z-index:9999999;
+    background-color: #DA3927;
 
 }
 
 #mobile-menu.is-active .bars:nth-child(3){
   transform: translateY(-10px)  rotate(-45deg);
     transition: 0.3s ease;
-      background-color: #DA3927;
-    z-index:9999999;
 
+     background-color: #DA3927;
 }
 
 .nav__links--container a{
@@ -306,6 +304,7 @@ nav{
 #mobile-menu{
   opacity: 1;
     transform: translate(-150%,-10%);
+    z-index: 3;
 
 }
 #mobile-menu:hover{
